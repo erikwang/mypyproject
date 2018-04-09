@@ -1,0 +1,94 @@
+Configuration Date: 2014-09-15T10:20:15
+
+IP Address   TCP Port   Destination               Host Name   
+----------   --------   -----------               ---------
+9.17.248.41  443        Bulk_Data_1               www6.software.ibm.com
+9.155.11.73  443        Bulk_Data_2               www.ecurep.ibm.com
+9.162.144.21980         Fix_Repository_1          delivery04-test.dhe.ibm.com
+9.17.207.223 80         Fix_Repository_2          delivery04-test.dhe.ibm.com
+9.17.207.223 80         Fix_Repository_3          delivery04-test-bld.dhe.ibm.com
+9.162.144.21880         Fix_Repository_4          delivery04-test-bld.dhe.ibm.com
+9.162.144.21880         Fix_Repository_5          delivery04-test-mul.dhe.ibm.com
+9.17.207.223 80         Fix_Repository_6          delivery04-test-mul.dhe.ibm.com
+9.17.207.222 80         Fix_Repository_7          download4-test.boulder.ibm.com
+9.162.144.22580         Fix_Repository_8          download4-test.mul.ie.ibm.com
+9.16.18.35   80         Fix_Repository_9          download3-test.boulder.ibm.com
+9.162.144.22380         Fix_Repository_10         download3-test.mul.ie.ibm.com
+9.16.34.168  443        Gateway_1                 w3cdt.stg.eventsgslb.ibm.com
+::1          443        Gateway_2                 w3cdt.stg.eventsgslb.ibm.com
+9.16.34.168  443        Inventory_Report_1        w3cdt.stg.eventsgslb.ibm.com
+::1          443        Inventory_Report_2        w3cdt.stg.eventsgslb.ibm.com
+9.16.34.168  443        Profile_1                 w3cdt.stg.eventsgslb.ibm.com
+::1          443        Profile_2                 w3cdt.stg.eventsgslb.ibm.com
+9.16.34.168  443        Problem_Report_1          w3cdt.stg.eventsgslb.ibm.com
+::1          443        Problem_Report_2          w3cdt.stg.eventsgslb.ibm.com
+9.16.34.168  443        Service_Provider_1        w3cdt.stg.eventsgslb.ibm.com
+::1          443        Service_Provider_2        w3cdt.stg.eventsgslb.ibm.com
+9.16.34.168  80         SP_Config_1               w3cdt.stg.eventsgslb.ibm.com
+::1          80         SP_Config_2               w3cdt.stg.eventsgslb.ibm.com
+9.16.34.168  443        Status_Report_1           w3cdt.stg.eventsgslb.ibm.com
+::1          443        Status_Report_2           w3cdt.stg.eventsgslb.ibm.com
+9.16.34.168  443        Update_Order_1            w3cdt.stg.eventsgslb.ibm.com
+9.16.34.168  443        Update_Order_2            w3cdt.stg.eventsgslb.ibm.com
+::1          443        Update_Order_3            w3cdt.stg.eventsgslb.ibm.com
+::1          443        Update_Order_4            w3cdt.stg.eventsgslb.ibm.com
+9.17.204.182 443        SRM_1                     srmgold.boulder.ibm.com
+9.11.13.208  443        Edge_Bulk_Data_1          stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 443        Edge_Bulk_Data_2          stg-edge-cdt.eventsgslb.ibm.com
+::1          443        Edge_Bulk_Data_3          stg-edge-cdt.eventsgslb.ibm.com
+9.11.13.208  80         Edge_Fix_Repository_1     stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 80         Edge_Fix_Repository_2     stg-edge-cdt.eventsgslb.ibm.com
+::1          80         Edge_Fix_Repository_3     stg-edge-cdt.eventsgslb.ibm.com
+9.11.13.208  443        Edge_Gateway_1            stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 443        Edge_Gateway_2            stg-edge-cdt.eventsgslb.ibm.com
+::1          443        Edge_Gateway_3            stg-edge-cdt.eventsgslb.ibm.com
+9.11.13.208  443        Edge_Inventory_Report_1   stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 443        Edge_Inventory_Report_2   stg-edge-cdt.eventsgslb.ibm.com
+::1          443        Edge_Inventory_Report_3   stg-edge-cdt.eventsgslb.ibm.com
+9.11.13.208  443        Edge_Profile_1            stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 443        Edge_Profile_2            stg-edge-cdt.eventsgslb.ibm.com
+::1          443        Edge_Profile_3            stg-edge-cdt.eventsgslb.ibm.com
+9.11.13.208  443        Edge_Problem_Report_1     stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 443        Edge_Problem_Report_2     stg-edge-cdt.eventsgslb.ibm.com
+::1          443        Edge_Problem_Report_3     stg-edge-cdt.eventsgslb.ibm.com
+9.11.13.208  443        Edge_Service_Provider_1   stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 443        Edge_Service_Provider_2   stg-edge-cdt.eventsgslb.ibm.com
+::1          443        Edge_Service_Provider_3   stg-edge-cdt.eventsgslb.ibm.com
+9.11.13.208  443        Edge_SP_Config_1          stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 443        Edge_SP_Config_2          stg-edge-cdt.eventsgslb.ibm.com
+::1          443        Edge_SP_Config_3          stg-edge-cdt.eventsgslb.ibm.com
+9.11.13.208  443        Edge_Status_Report_1      stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 443        Edge_Status_Report_2      stg-edge-cdt.eventsgslb.ibm.com
+::1          443        Edge_Status_Report_3      stg-edge-cdt.eventsgslb.ibm.com
+9.11.13.208  443        Edge_Update_Order_1       stg-edge-cdt.eventsgslb.ibm.com
+9.11.13.208  443        Edge_Update_Order_2       stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 443        Edge_Update_Order_3       stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 443        Edge_Update_Order_4       stg-edge-cdt.eventsgslb.ibm.com
+::1          443        Edge_Update_Order_5       stg-edge-cdt.eventsgslb.ibm.com
+::1          443        Edge_Update_Order_6       stg-edge-cdt.eventsgslb.ibm.com
+9.11.13.208  443        Edge_SRM_1                stg-edge-cdt.eventsgslb.ibm.com
+9.17.253.208 443        Edge_SRM_2                stg-edge-cdt.eventsgslb.ibm.com
+::1          443        Edge_SRM_3                stg-edge-cdt.eventsgslb.ibm.com
+
+
+Unique IPs   TCP Port
+----------   --------
+9.17.248.41  443  
+9.155.11.73  443  
+9.162.144.21980  
+9.17.207.223 80  
+9.162.144.21880  
+9.17.207.222 80  
+9.162.144.22580  
+9.16.18.35   80  
+9.162.144.22380  
+9.16.34.168  443  80  
+::1          443  80  
+9.17.204.182 443  
+9.11.13.208  443  80  
+9.17.253.208 443  80  
+
+
+Unique VPN Gateways   Protocols   UDP Port
+-------------------   ---------   --------
+

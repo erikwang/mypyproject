@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="ecctrace.html.xsl"?>
+<log>
+<logfile>Y:\supsym\erikwang\temp\ecchome\log\eccTrace0.0.log</logfile>
+ <record>
+   <date>2016-09-30T15:43:15.227-0400</date>
+   <level>INFO</level>
+   <class>com.ibm.ecc.common.Config</class>
+   <method>setRootDataDirectory</method>
+   <jvmid>b725d192e2cf92d5:2e9a0973:1577c9f4503:-8000</jvmid>
+   <sequence>0</sequence>
+   <thread>1</thread>
+   <message>java.runtime.name: OpenJDK Runtime Environment
+sun.boot.library.path: /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/amd64
+java.vm.version: 24.45-b08
+java.vm.vendor: Oracle Corporation
+java.vendor.url: http://java.oracle.com/
+path.separator: :
+java.vm.name: OpenJDK 64-Bit Server VM
+file.encoding.pkg: sun.io
+user.country: US
+sun.java.launcher: SUN_STANDARD
+sun.os.patch.level: unknown
+java.vm.specification.name: Java Virtual Machine Specification
+user.dir: /scratch/supsym/erikwang/temp/ecchome
+java.runtime.version: 1.7.0_45-mockbuild_2013_10_22_03_37-b00
+java.awt.graphicsenv: sun.awt.X11GraphicsEnvironment
+java.endorsed.dirs: /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/endorsed
+os.arch: amd64
+java.io.tmpdir: /tmp
+line.separator: 
+
+java.vm.specification.vendor: Oracle Corporation
+os.name: Linux
+sun.jnu.encoding: UTF-8
+java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.specification.name: Java Platform API Specification
+java.class.version: 51.0
+sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+os.version: 2.6.32-431.el6.x86_64
+user.home: /root
+user.timezone: 
+java.awt.printerjob: sun.print.PSPrinterJob
+file.encoding: UTF-8
+java.specification.version: 1.7
+user.name: root
+java.class.path: eccagent.jar.new
+java.vm.specification.version: 1.7
+sun.arch.data.model: 64
+java.home: /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre
+sun.java.command: eccagent.jar.new -E /scratch/supsym/erikwang/temp/ecchome -i IBM/5725G8601 -v 711 -I 0992394 -u 1234567890 -N Erik Wang -F IBM/SPECTRUM_COMPUTING -p 9053161550 -s 4 -C CA -c Markham -T Call Home test PMR - From Linux server -t This is a test PMR, submitted from a Linux host -U /scratch/supsym/erikwang/temp/ecchome/hello -e erikwang@ca.ibm.com -d true
+java.specification.vendor: Oracle Corporation
+user.language: en
+awt.toolkit: sun.awt.X11.XToolkit
+java.vm.info: mixed mode
+java.version: 1.7.0_45
+java.ext.dirs: /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+sun.boot.class.path: /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/resources.jar:
+    /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/rt.jar:
+    /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/sunrsasign.jar:
+    /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/jsse.jar:
+    /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/jce.jar:
+    /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/charsets.jar:
+    /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/netx.jar:
+    /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/plugin.jar:
+    /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/rhino.jar:
+    /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/jfr.jar:
+    /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/classes
+java.vendor: Oracle Corporation
+file.separator: /
+java.vendor.url.bug: http://bugreport.sun.com/bugreport/
+sun.cpu.endian: little
+sun.io.unicode.encoding: UnicodeLittle
+sun.cpu.isalist: 
+RootDataDirectory: /scratch/supsym/erikwang/temp/ecchome
+ecc version: 2.0201
+ecc build date: 01/14/2016 10:27 AM
+</message>
+ </record>
+ <record>
+   <date>2016-09-30T15:43:15.232-0400</date>
+   <level>ENTRY</level>
+   <class>com.ibm.ecc.common.Config</class>
+   <method>load</method>
+   <jvmid>b725d192e2cf92d5:2e9a0973:1577c9f4503:-8000</jvmid>
+   <sequence>1</sequence>
+   <thread>1</thread>
+   <message>File: /scratch/supsym/erikwang/temp/ecchome/eccBase.properties; lockExclusive: false; lockWait: false</message>
+ </record>
+ <record>
+   <date>2016-09-30T15:43:15.232-0400</date>
+   <level>EXIT</level>
+   <class>com.ibm.ecc.common.Config</class>
+   <method>load</method>
+   <jvmid>b725d192e2cf92d5:2e9a0973:1577c9f4503:-8000</jvmid>
+   <sequence>2</sequence>
+   <thread>1</thread>
+ </record>
+ <record>
+   <date>2016-09-30T15:43:15.232-0400</date>
+   <level>INFO</level>
+   <class>com.ibm.ecc.common.Config</class>
+   <method>getProperty</method>
+   <jvmid>b725d192e2cf92d5:2e9a0973:1577c9f4503:-8000</jvmid>
+   <sequence>3</sequence>
+   <thread>1</thread>
+   <message>File: /scratch/supsym/erikwang/temp/ecchome/eccBase.properties. Property: LOG_DIR. Value: null</message>
+ </record>
+ <record>
+   <date>2016-09-30T15:43:15.232-0400</date>
+   <level>INFO</level>
+   <class>com.ibm.ecc.common.Config</class>
+   <method>getProperty</method>
+   <jvmid>b725d192e2cf92d5:2e9a0973:1577c9f4503:-8000</jvmid>
+   <sequence>4</sequence>
+   <thread>1</thread>
+   <message>File: /scratch/supsym/erikwang/temp/ecchome/eccBase.properties. Property: AUDITLOG_MAXSIZE_MB. Value: null</message>
+ </record>
+ <record>
+   <date>2016-09-30T15:43:15.233-0400</date>
+   <level>INFO</level>
+   <class>com.ibm.ecc.common.Config</class>
+   <method>getProperty</method>
+   <jvmid>b725d192e2cf92d5:2e9a0973:1577c9f4503:-8000</jvmid>
+   <sequence>5</sequence>
+   <thread>1</thread>
+   <message>File: /scratch/supsym/erikwang/temp/ecchome/eccBase.properties. Property: AUDITLOG_COUNT. Value: null</message>
+ </record>
+ <record>
+   <date>2016-09-30T15:43:15.233-0400</date>
+   <level>ENTRY</level>
+   <class>com.ibm.ecc.common.Config</class>
+   <method>load</method>
+   <jvmid>b725d192e2cf92d5:2e9a0973:1577c9f4503:-8000</jvmid>
+   <sequence>6</sequence>
+   <thread>1</thread>
+   <message>File: /scratch/supsym/erikwang/temp/ecchome/eccBase.properties; lockExclusive: false; lockWait: false</message>
+ </record>
+ <record>
+   <date>2016-09-30T15:43:15.233-0400</date>
+   <level>EXIT</level>
+   <class>com.ibm.ecc.common.Config</class>
+   <method>load</method>
+   <jvmid>b725d192e2cf92d5:2e9a0973:1577c9f4503:-8000</jvmid>
+   <sequence>7</sequence>
+   <thread>1</thread>
+ </record>
+ <record>
+   <date>2016-09-30T15:43:15.234-0400</date>
+   <level>INFO</level>
+   <class>com.ibm.ecc.common.Config</class>
+   <method>getProperty</method>
+   <jvmid>b725d192e2cf92d5:2e9a0973:1577c9f4503:-8000</jvmid>
+   <sequence>8</sequence>
+   <thread>1</thread>
+   <message>File: /scratch/supsym/erikwang/temp/ecchome/eccBase.properties. Property: EXTENDED_ROOT_DATA_DIR. Value: null</message>
+ </record>
+ <record>
+   <date>2016-09-30T15:43:15.251-0400</date>
+   <level>SEVERE</level>
+   <class>com.ibm.ecc.common.Config</class>
+   <method>setRootDataDirectory</method>
+   <jvmid>b725d192e2cf92d5:2e9a0973:1577c9f4503:-8000</jvmid>
+   <sequence>9</sequence>
+   <thread>1</thread>
+   <environment>ecc version: 2.0201. ecc build date: 01/14/2016 10:27 AM.  Java version: Oracle Corporation 1.7.0_45. OS version: Linux 2.6.32-431.el6.x86_64</environment>
+   <exception>
+     <error>Gen.OperationFailed: null</error>
+     <frame>
+       <class>com.ibm.ecc.common.Config</class>
+       <file>Config.java</file>
+       <method>setRootDataDirectory</method>
+       <line>1813</line>
+     </frame>
+     <frame>
+       <class>com.ibm.system.spectrum.computing.support.ProblemReport</class>
+       <file>ProblemReport.java</file>
+       <method>main</method>
+       <line>238</line>
+     </frame>
+     <frame>
+       <class>sun.reflect.NativeMethodAccessorImpl</class>
+       <file>NativeMethodAccessorImpl.java</file>
+       <method>invoke0</method>
+       <line>&lt;Native Method&gt;)</line>
+     </frame>
+     <frame>
+       <class>sun.reflect.NativeMethodAccessorImpl</class>
+       <file>NativeMethodAccessorImpl.java</file>
+       <method>invoke</method>
+       <line>57</line>
+     </frame>
+     <frame>
+       <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+       <file>DelegatingMethodAccessorImpl.java</file>
+       <method>invoke</method>
+       <line>43</line>
+     </frame>
+     <frame>
+       <class>java.lang.reflect.Method</class>
+       <file>Method.java</file>
+       <method>invoke</method>
+       <line>606</line>
+     </frame>
+     <frame>
+       <class>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</class>
+       <file>JarRsrcLoader.java</file>
+       <method>main</method>
+       <line>58</line>
+     </frame>
+    <causedby> 
+     <error>java.lang.NoClassDefFoundError: com/ibm/xml/crypto/IBMXMLCryptoProvider</error>
+     <frame>
+       <class>com.ibm.ecc.common.Config</class>
+       <file>Config.java</file>
+       <method>setRootDataDirectory</method>
+       <line>1635</line>
+     </frame>
+     <frame>
+       <class>com.ibm.system.spectrum.computing.support.ProblemReport</class>
+       <file>ProblemReport.java</file>
+       <method>main</method>
+       <line>238</line>
+     </frame>
+     <frame>
+       <class>sun.reflect.NativeMethodAccessorImpl</class>
+       <file>NativeMethodAccessorImpl.java</file>
+       <method>invoke0</method>
+       <line>&lt;Native Method&gt;)</line>
+     </frame>
+     <frame>
+       <class>sun.reflect.NativeMethodAccessorImpl</class>
+       <file>NativeMethodAccessorImpl.java</file>
+       <method>invoke</method>
+       <line>57</line>
+     </frame>
+     <frame>
+       <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+       <file>DelegatingMethodAccessorImpl.java</file>
+       <method>invoke</method>
+       <line>43</line>
+     </frame>
+     <frame>
+       <class>java.lang.reflect.Method</class>
+       <file>Method.java</file>
+       <method>invoke</method>
+       <line>606</line>
+     </frame>
+     <frame>
+       <class>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</class>
+       <file>JarRsrcLoader.java</file>
+       <method>main</method>
+       <line>58</line>
+     </frame>
+    </causedby> 
+    <causedby> 
+     <error>java.lang.ClassNotFoundException: com.ibm.xml.crypto.IBMXMLCryptoProvider</error>
+     <frame>
+       <class>java.net.URLClassLoader$1</class>
+       <file>URLClassLoader.java</file>
+       <method>run</method>
+       <line>366</line>
+     </frame>
+     <frame>
+       <class>java.net.URLClassLoader$1</class>
+       <file>URLClassLoader.java</file>
+       <method>run</method>
+       <line>355</line>
+     </frame>
+     <frame>
+       <class>java.security.AccessController</class>
+       <file>AccessController.java</file>
+       <method>doPrivileged</method>
+       <line>&lt;Native Method&gt;)</line>
+     </frame>
+     <frame>
+       <class>java.net.URLClassLoader</class>
+       <file>URLClassLoader.java</file>
+       <method>findClass</method>
+       <line>354</line>
+     </frame>
+     <frame>
+       <class>java.lang.ClassLoader</class>
+       <file>ClassLoader.java</file>
+       <method>loadClass</method>
+       <line>425</line>
+     </frame>
+     <frame>
+       <class>java.lang.ClassLoader</class>
+       <file>ClassLoader.java</file>
+       <method>loadClass</method>
+       <line>358</line>
+     </frame>
+     <frame>
+       <class>com.ibm.ecc.common.Config</class>
+       <file>Config.java</file>
+       <method>setRootDataDirectory</method>
+       <line>1635</line>
+     </frame>
+     <frame>
+       <class>com.ibm.system.spectrum.computing.support.ProblemReport</class>
+       <file>ProblemReport.java</file>
+       <method>main</method>
+       <line>238</line>
+     </frame>
+     <frame>
+       <class>sun.reflect.NativeMethodAccessorImpl</class>
+       <file>NativeMethodAccessorImpl.java</file>
+       <method>invoke0</method>
+       <line>&lt;Native Method&gt;)</line>
+     </frame>
+     <frame>
+       <class>sun.reflect.NativeMethodAccessorImpl</class>
+       <file>NativeMethodAccessorImpl.java</file>
+       <method>invoke</method>
+       <line>57</line>
+     </frame>
+     <frame>
+       <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+       <file>DelegatingMethodAccessorImpl.java</file>
+       <method>invoke</method>
+       <line>43</line>
+     </frame>
+     <frame>
+       <class>java.lang.reflect.Method</class>
+       <file>Method.java</file>
+       <method>invoke</method>
+       <line>606</line>
+     </frame>
+     <frame>
+       <class>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</class>
+       <file>JarRsrcLoader.java</file>
+       <method>main</method>
+       <line>58</line>
+     </frame>
+    </causedby> 
+   </exception>
+ </record>
+</log>

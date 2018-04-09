@@ -1,0 +1,2138 @@
+<?xml version="1.0" encoding="UTF-8"?><Service-Provider-Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ServiceProviderConfig_1.xsd">
+    <Service-Provider>IBM</Service-Provider>
+
+    <Update-Interval>30</Update-Interval>
+
+    <VPN-Supported>false</VPN-Supported>
+
+    <Dialup-Supported>false</Dialup-Supported>
+
+    <HTTP-Supported>true</HTTP-Supported>
+
+    <HTTPS-Supported>true</HTTPS-Supported>
+
+    <FTP-Supported>false</FTP-Supported>
+
+    <Service-Provider-Connection-Information>
+        <Configuration-Date>2015-06-18T16:06:05</Configuration-Date>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Bulk_Data_1</Service-Destination>
+
+            <Host-Name>www6.software.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.41</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Bulk_Data_2</Service-Destination>
+
+            <Host-Name>www.ecurep.ibm.com</Host-Name>
+
+            <IP-Address>192.109.81.20</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>FTP_Bulk_Data_1</Service-Destination>
+
+            <Host-Name>testcase.boulder.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.31</IP-Address>
+
+            <Port>21</Port>
+
+            <Supported-Transports>FTP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_1</Service-Destination>
+
+            <Host-Name>download2.boulder.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.28</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_2</Service-Destination>
+
+            <Host-Name>download4.boulder.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.107</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_3</Service-Destination>
+
+            <Host-Name>download4.mul.ie.ibm.com</Host-Name>
+
+            <IP-Address>129.35.224.107</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_4</Service-Destination>
+
+            <Host-Name>delivery04-bld.dhe.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.104</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_5</Service-Destination>
+
+            <Host-Name>delivery04-bld.dhe.ibm.com</Host-Name>
+
+            <IP-Address>129.35.224.104</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_6</Service-Destination>
+
+            <Host-Name>delivery04-mul.dhe.ibm.com</Host-Name>
+
+            <IP-Address>129.35.224.115</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_7</Service-Destination>
+
+            <Host-Name>delivery04-mul.dhe.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.115</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_8</Service-Destination>
+
+            <Host-Name>delivery04.dhe.ibm.com</Host-Name>
+
+            <IP-Address>129.35.224.105</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_9</Service-Destination>
+
+            <Host-Name>delivery04.dhe.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.105</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_10</Service-Destination>
+
+            <Host-Name>download3.boulder.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.76</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_11</Service-Destination>
+
+            <Host-Name>download3.mul.ie.ibm.com</Host-Name>
+
+            <IP-Address>129.35.224.114</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_12</Service-Destination>
+
+            <Host-Name>delivery03-bld.dhe.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.103</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_13</Service-Destination>
+
+            <Host-Name>delivery03-bld.dhe.ibm.com</Host-Name>
+
+            <IP-Address>129.35.224.103</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_14</Service-Destination>
+
+            <Host-Name>delivery03-mul.dhe.ibm.com</Host-Name>
+
+            <IP-Address>129.35.224.113</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_15</Service-Destination>
+
+            <Host-Name>delivery03-mul.dhe.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.113</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_16</Service-Destination>
+
+            <Host-Name>dsw.boulder.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.124</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_17</Service-Destination>
+
+            <Host-Name>dsw.mul.ie.ibm.com</Host-Name>
+
+            <IP-Address>129.35.224.124</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_18</Service-Destination>
+
+            <Host-Name>dsw-bld.dhe.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.108</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_19</Service-Destination>
+
+            <Host-Name>dsw-bld.dhe.ibm.com</Host-Name>
+
+            <IP-Address>129.35.224.108</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_20</Service-Destination>
+
+            <Host-Name>dsw-mul.dhe.ibm.com</Host-Name>
+
+            <IP-Address>129.35.224.109</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_21</Service-Destination>
+
+            <Host-Name>dsw-mul.dhe.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.109</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_22</Service-Destination>
+
+            <Host-Name>dsw.dhe.ibm.com</Host-Name>
+
+            <IP-Address>129.35.224.110</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Fix_Repository_23</Service-Destination>
+
+            <Host-Name>dsw.dhe.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.110</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Gateway_1</Service-Destination>
+
+            <Host-Name>www-945.ibm.com</Host-Name>
+
+            <IP-Address>129.42.26.224</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/site.txt</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Gateway_2</Service-Destination>
+
+            <Host-Name>www-945.ibm.com</Host-Name>
+
+            <IP-Address>129.42.50.224</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/site.txt</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Gateway_3</Service-Destination>
+
+            <Host-Name>www-945.ibm.com</Host-Name>
+
+            <IP-Address>129.42.42.224</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/site.txt</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Inventory_Report_1</Service-Destination>
+
+            <Host-Name>eccgw01.boulder.ibm.com</Host-Name>
+
+            <IP-Address>207.25.252.197</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Inventory_Report_2</Service-Destination>
+
+            <Host-Name>eccgw02.rochester.ibm.com</Host-Name>
+
+            <IP-Address>129.42.160.51</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Problem_Report_1</Service-Destination>
+
+            <Host-Name>www-945.ibm.com</Host-Name>
+
+            <IP-Address>129.42.26.224</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/iepd/services/ProblemReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Problem_Report_2</Service-Destination>
+
+            <Host-Name>www-945.ibm.com</Host-Name>
+
+            <IP-Address>129.42.50.224</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/iepd/services/ProblemReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Problem_Report_3</Service-Destination>
+
+            <Host-Name>www-945.ibm.com</Host-Name>
+
+            <IP-Address>129.42.42.224</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/iepd/services/ProblemReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Profile_1</Service-Destination>
+
+            <Host-Name>eccgw01.boulder.ibm.com</Host-Name>
+
+            <IP-Address>207.25.252.197</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Profile_2</Service-Destination>
+
+            <Host-Name>eccgw02.rochester.ibm.com</Host-Name>
+
+            <IP-Address>129.42.160.51</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>SP_Config_1</Service-Destination>
+
+            <Host-Name>www-945.ibm.com</Host-Name>
+
+            <IP-Address>129.42.26.224</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/serviceProviderIBMnetV2.gzip</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>SP_Config_2</Service-Destination>
+
+            <Host-Name>www-945.ibm.com</Host-Name>
+
+            <IP-Address>129.42.50.224</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/serviceProviderIBMnetV2.gzip</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>SP_Config_3</Service-Destination>
+
+            <Host-Name>www-945.ibm.com</Host-Name>
+
+            <IP-Address>129.42.42.224</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/serviceProviderIBMnetV2.gzip</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>SP_Config_4</Service-Destination>
+
+            <Host-Name>www6.software.ibm.com</Host-Name>
+
+            <IP-Address>170.225.15.41</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/serviceProviderIBMnetV2.gzip</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Status_Report_1</Service-Destination>
+
+            <Host-Name>eccgw01.boulder.ibm.com</Host-Name>
+
+            <IP-Address>207.25.252.197</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Status_Report_2</Service-Destination>
+
+            <Host-Name>eccgw02.rochester.ibm.com</Host-Name>
+
+            <IP-Address>129.42.160.51</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Update_Order_1</Service-Destination>
+
+            <Host-Name>eccgw01.boulder.ibm.com</Host-Name>
+
+            <IP-Address>207.25.252.197</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Update_Order_2</Service-Destination>
+
+            <Host-Name>eccgw02.rochester.ibm.com</Host-Name>
+
+            <IP-Address>129.42.160.51</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>SRM_1</Service-Destination>
+
+            <Host-Name>www-03.ibm.com</Host-Name>
+
+            <IP-Address>204.146.30.17</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/services/srm/SRMPush</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Bulk_Data_1</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Bulk_Data_2</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Bulk_Data_3</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Bulk_Data_4</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Bulk_Data_5</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Bulk_Data_6</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Fix_Repository_1</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Fix_Repository_2</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Fix_Repository_3</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Fix_Repository_4</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Fix_Repository_5</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Fix_Repository_6</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>80</Port>
+
+            <Supported-Transports>DDP</Supported-Transports>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Gateway_1</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/site.txt</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Gateway_2</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/site.txt</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Gateway_3</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/site.txt</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Gateway_4</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/site.txt</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Gateway_5</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/site.txt</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Gateway_6</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/site.txt</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_1</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_2</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_3</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_4</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_5</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_6</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_7</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_8</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_9</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_10</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_11</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Inventory_Report_12</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/InventoryReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Problem_Report_1</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/iepd/services/ProblemReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Problem_Report_2</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/iepd/services/ProblemReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Problem_Report_3</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/iepd/services/ProblemReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Problem_Report_4</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/iepd/services/ProblemReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Problem_Report_5</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/iepd/services/ProblemReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Problem_Report_6</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/iepd/services/ProblemReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_1</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_2</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_3</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_4</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_5</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_6</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_7</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_8</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_9</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_10</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_11</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Profile_12</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/Profile</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SP_Config_1</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/serviceProviderIBMnetV2.gzip</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SP_Config_2</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/serviceProviderIBMnetV2.gzip</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SP_Config_3</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/serviceProviderIBMnetV2.gzip</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SP_Config_4</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/serviceProviderIBMnetV2.gzip</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SP_Config_5</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/serviceProviderIBMnetV2.gzip</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SP_Config_6</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gateway/services/projects/ecc/serviceProviderIBMnetV2.gzip</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_1</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_2</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_3</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_4</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_5</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_6</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_7</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_8</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_9</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_10</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_11</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Status_Report_12</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/StatusReport</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_1</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_2</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_3</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_4</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_5</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_6</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_7</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_8</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_9</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_10</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_11</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/bldr/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_Update_Order_12</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/gw/roch/services/projects/ecc/ws/UpdateOrder</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SRM_1</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.56.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/www-03/services/srm/SRMPush</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SRM_2</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.54.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/www-03/services/srm/SRMPush</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SRM_3</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>129.42.60.189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/www-03/services/srm/SRMPush</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SRM_4</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c2:200:129:42:60:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/www-03/services/srm/SRMPush</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SRM_5</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c4:200:129:42:54:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/www-03/services/srm/SRMPush</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+        <Service-Provider-Connection-Information-Entry>
+            <Country-Region>*</Country-Region>
+
+            <Service-Destination>Edge_SRM_6</Service-Destination>
+
+            <Host-Name>esupport.ibm.com</Host-Name>
+
+            <IP-Address>2620:0:6c0:200:129:42:56:189</IP-Address>
+
+            <Port>443</Port>
+
+            <Supported-Transports>HTTPS</Supported-Transports>
+
+            <URI>/eccedge/www-03/services/srm/SRMPush</URI>
+
+        </Service-Provider-Connection-Information-Entry>
+
+    </Service-Provider-Connection-Information>
+
+</Service-Provider-Configuration>

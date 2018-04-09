@@ -1,0 +1,118 @@
+Welcome to eccagnet - Implemented by IBM Spectrum Computing Support Team - Toronto
+
+- To use eccagent, you MUST have IBM jre installed. For example:
+	bash-4.1$ java -version
+	java version "1.8.0"
+	Java(TM) SE Runtime Environment (build pxa6480sr3-20160428_01(SR3))
+	IBM J9 VM (build 2.8, JRE 1.8.0 Linux amd64-64 Compressed References 20160427_301573 (JIT enabled, AOT enabled)
+	J9VM - R28_Java8_SR3_20160427_1620_B301573
+	JIT  - tr.r14.java.green_20160329_114288
+	GC   - R28_Java8_SR3_20160427_1620_B301573_CMPRSS
+	J9CL - 20160427_301573)
+	JCL - 20160421_01 based on Oracle jdk8u91-b14
+
+IBM Java download link (e.g. Java8):
+https://developer.ibm.com/javasdk/downloads/sdk8/
+
+- Use -V to show eccagent welcome message, it exits 0.
+- Modify log4j configuration file to modify how eccagent generate log.
+
+- To use eccagent arguments:
+		 * S = ECC Service type. e.g. ProblemReport, patching, etc. Currently the default service is ProblemReport
+		 * E = ECC HOME; libs for ecc client, e.g. c:\\ecchome\\eccRootDirectory 
+		 * i = Component ID (IBM/*********); For test SYM = IBM/5725G8601; LSF = IBM/5725G8201
+		 * v = Version (611, 71, 711, 911, 912, 913, etc.)
+		 * I = Customer Number (Customer ICN); ICN must be an existed one and should match country code.
+		 * u = UUID (UUID for the cluster instance, can use a pseduo one, e.g."1234567890")
+		 * N = Customer Name; e.g. "John Smith"
+		 * F = IDENTIFIER, GROUP_NAME or PRODUCT_CID. For test environment, use GROUP; SYM = "IBM/SPECTRUM_SYM" LSF = "IBM/SPECTRUM_LSF"
+		 * p = Customer phone number; e.g. "9053161550"
+		 * e = Customer email; e.g. "erikwang@ca.ibm.com"
+		 * s = Severity; 1,2,3,4
+		 * C = Country; For test only use "US" since it needs coordinate to customer record
+		 * c = CITY; e.g. "New York"
+		 * T = PMR Comment Line (title); e.g. "Symphony 7.1.1 {ACE} libraries"
+		 * t = PMR Start line; e.g. "This is a test PMR, please ignore"
+		 * U = A gzip file to be uploaded; e.g. "/scratch/supsym/erikwang/symclnt-lnx26-lib23-x64-6.1.1_build241698.tar.gz"
+		 * r = PMR URI for append additional files to the PMR. The URI is generated when the PMR is created. Don't use if it is a new PMR creation
+		 * d = debug flag; default = false
+		 * V = Show hello message, will not create any PMR. ecc agent will ignore all other arguments
+		 * D = TESTMODE, won't call ecc API to create PMR
+		 * P = Set Product ID (7 digits). This is required for backend process which migrate PMR to Salesforce case. This Parameter doesn't work with this commit. Need more info from ECC team
+		 * f = Add a "[CH] " in PMR title to indentify it is a Call Home PMR, default = true
+		 * 
+		 * 
+		 * Test example
+		 * On Windows
+		 * -E "C:\ecchome\\eccRootDirectory" 
+		 * -i "IBM/5725G8601" 
+		 * -v "711" 
+		 * -I "0992394" 
+		 * -u "1234567890" 
+		 * -N "Erik Wang" 
+		 * -F "IBM/SPECTRUM_COMPUTING" 
+		 * -p "9053161550" 
+		 * -s "3" 
+		 * -C "CA" 
+		 * -c "Markham" 
+		 * -T "Call Home test PMR - From Windows server" 
+		 * -t "This is a test PMR, submitted from a IDE environment on Winodws host" 
+		 * -U "c:\\log.log" 
+		 * -e "erikwang@ca.ibm.com"
+		 * -r "https://esupport.ibm.com:443/eccedge/gateway/services/projects/ecc/iepd/services/ProblemReport?vSessionId=UNQ2016071520221819817" Note: Don't use it if it is a new PMR creation
+		 * -d "true"
+		 * -V ""
+		 * -D "true"
+		 * -S "ProblemReport" //Note: by default it is ProblemReport
+		 * -P "5725Y38"
+		 * 
+	  
+ECC agent exits with different code for different issues during PMR
+creation and file upload.
+
+//Duplicated PMR
+ECC code = 7301 ==> exit as 100
+
+//Insufficient authority for the credentials Entity ID [XXX].  It does
+not match any of the ids in the Acl list. Subsequent transaction
+[attach] is not allowed.
+ECC code = 1120 ==> exit as 101
+
+//Existed file name in ecurep for this PMR.
+ECC code = 4454 ==> exit as 102
+
+////RETAIN Customer Record NOT FOUND for Customer: [xxxx] and RETAIN CountryCode: [XX].
+ECC code = 0552 ==> exit as 103
+
+//RThe field: [customer number] in object: [Subject] contains invalid value: []
+ECC code = 1020 ==> exit as 104
+
+//Invalid object : [Subject]. Reason:[Required version field is missing]
+ECC code = 1022 ==> exit as 105
+
+//Other ECC related issues
+Exit as 200
+
+//ECC agent internal
+97 = Demo mode is on
+98 = Caller brings an unknown agrument
+99 = General problem 
+	  
+	  
+- Example of how to create a new PMR in Prod Retain TEST369 queue
+java -jar eccagent.jar -E "/scratch/supsym/gyoung/callhome/ecc/ecchome" -i "IBM/5725G8601" -v "711" -I "0992394" -u "1234567890" -N "Erik Wang" -F "IBM/SPECTRUM_COMPUTING" -p "9053161550" -s "3" -C "CA" -c "Markham" -T "Call Home test PMR - From Linux server" -t "This is a test PMR, submitted from a Linux host" -U "/scratch/supsym/erikwang/temp/ecchome/hello" -e "erikwang@ca.ibm.com" -d "true" -V
+
+  
+- Example of how to attach files to an existed PMR
+java -jar eccagent.jar  -E "/scratch/supsym/erikwang/temp/ecchome" -F "IBM/SPECTRUM_COMPUTING" -U "/scratch/supsym/erikwang/temp/ecchome/hello2" -r "https://esupport.ibm.com:443/eccedge/gateway/services/projects/ecc/iepd/services/ProblemReport?vSessionId=PB12017042622042156873" -d "true"
+
+
+Entitlement check
+If entitlement check is enabled, customer's geographic location code (country code and city) MUST be valid and match his ICN number when call eccagent to create a PMR.
+For NA Software account, use IEE as entitlement check server. See IEPD configuration
+To test a not-entitled ICN 2437589 and Country = US
+
+How customer find Call Home PMR?
+User can't see Call Home automatically generated PMR on e-support portal even use the same email address. However, they can find the PMR on e-support by searching the PMR number.
+
+- Have fun.
